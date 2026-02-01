@@ -77,13 +77,13 @@ Classification priority:
 ## Architecture
 
 User Audio
-↓
+->
 Speech-to-Text (STT)
-↓
+->
 TranscriptAnalyzer
-↓
+->
 AgentStateManager
-↓
+->
 InteractionController
-↓
+->
 commit_user_turn() ← only interruption mechanism
